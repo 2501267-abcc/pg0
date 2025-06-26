@@ -119,11 +119,13 @@ footer{
         font-size:14px;
     }
 }
+
 @media screen and (max-width:1000px){   /*画面の幅が1000px以下の時*/
     body{
         font-size:10px;
     }
 }
+
 @media screen and (max-width:800px){    /*画面の幅が800px以下の時*/
     body{
         font-size:12px;
@@ -164,11 +166,13 @@ footer{
         height:20%;
     }
 }
+
 @media screen and (max-width:650px){    /*画面の幅が650px以下の時*/
     body{
         font-size:8px;
     }
 }
+
 @media screen and (max-width:480px){    /*画面の幅が480px以下の時*/
     .navigation{
         top:0;
@@ -197,6 +201,7 @@ footer{
         margin-right:auto;
     }
 }
+
 @media screen and (max-width:400px){    /*画面の幅が400px以下の時*/
     body{
         font-size:6px;
