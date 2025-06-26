@@ -9,6 +9,7 @@
         left:0;
         width:15%;
         height:100%;
+        box-shadow:0 0 8px gray;
         box-sizing:border-box;
     }
     .navigation ul{
@@ -81,7 +82,7 @@
         box-sizing:border-box;
     }
     .content h2{
-        margin-right:50%;
+        text-align:left;
     }
     .content a{
         color:#000000;
@@ -91,16 +92,18 @@
         color:#ffffff;
     }
     .content img{
-        width:50%;
-        height:50%;
+        width:60%;
     }
     .content img:hover{
         opacity:0.5;
     }
     .content iframe{
-        width:50%;
+        width:60%;
         height:315px;
         border:0;
+    }
+    h2{
+        margin-left:5%;
     }
     footer{
         width:100%;
@@ -178,6 +181,7 @@
         display:flex;
         flex-direction:row;
         justify-content:center;
+        align-items:center;
         margin-top:auto;
         margin-bottom:auto;
         gap:10px;
